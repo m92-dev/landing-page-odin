@@ -5,6 +5,16 @@
   padding: 0px;
 }
 
+h2 {
+  font-weight: 900;
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+p {
+  font-size: 18px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -23,4 +33,42 @@ nav ul {
   display: flex;
   list-style-type: none;
   gap: 30px;
+  align-items: center;
+}
+
+.firstSection {
+  display: flex;
+  gap: 20px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-family: "Roboto", sans-serif;
+
+  padding: 100px 200px;
+}
+
+.firstSection h2 {
+  padding-bottom: 15px;
+}
+
+.firstSection p {
+  padding-bottom: 15px;
+  line-height: 1.5;
+}
+
+.firstSectionLeft {
+  flex-basis: 50%;
+}
+
+.followMe {
+  background-color: #3882f6;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.followMe a {
+  text-decoration: none;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 18px;
 }
