@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Butterfly+Kids|Roboto");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 200px;
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.companyName {
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
