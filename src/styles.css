@@ -65,6 +65,17 @@ nav ul {
   flex-basis: 50%;
 }
 
+.firstSectionRight {
+  flex-basis: 50%;
+}
+
+.firstSectionRight img {
+  display: block;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .followMe {
   background-color: #3882f6;
   padding: 10px 15px;
@@ -77,4 +88,79 @@ nav ul {
   color: #f9faf8;
   font-weight: bold;
   font-size: 18px;
+}
+
+.secondSection {
+  padding: 0 300px;
+}
+
+.secondSection h2 {
+  padding: 40px 0 20px;
+  color: #1f2937;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 34px;
+}
+
+.fourBlocks {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px 40px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.fourBlocks img {
+  border-radius: 8px;
+  padding-bottom: 15px;
+}
+
+.fourBlocks p {
+  color: #1f2937;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+.fourBlocksFirstImg {
+  flex: 1;
+  text-align: center;
+}
+
+.thirdSection {
+  display: flex;
+  padding: 100px 300px;
+  flex-direction: column;
+  background-color: #e5e7eb;
+}
+
+.thirdSection p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #1f2937;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.thirdSection p:last-child {
+  text-align: end;
+  padding-top: 5px;
+  color: #1f2937;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fourthSection {
+  margin: 20px 200px;
+}
+
+.signOn {
+  background-color: #3882f6;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
